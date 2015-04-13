@@ -1,0 +1,41 @@
+body{
+	background: url(http://subtlepatterns.com/patterns/school.png);
+}
+
+header{
+	background-color:rgba(0,0,100,0.1);
+	font-size:2em;
+	text-align:center; 
+	border-radius:1em;
+}
+
+article#questionaire{ 
+	padding:10px;
+	margin-right:auto;
+	margin-left:auto; 	
+	background:rgba(255,255,255,0.3);
+	border-radius:1em;
+}
+
+#question>li{
+	padding:1em;
+	list-style-type:upper-roman;
+}
+
+#question>li:nth-child(odd){
+	background-color:rgba(255,0,255,0.1);
+}
+
+#question>li:nth-child(even){
+	background-color:rgba(255,255,0,0.1);
+}
+
+input:checked + label{
+  color: red;
+}
+
+
+footer{
+	padding:2em;
+	text-align:center; 
+}
